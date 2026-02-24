@@ -7,7 +7,7 @@ import numpy as np
 
 # importar e transformar
 # df = pd.read_csv('D:/Análises/Projeto Lotes/lotes_streamlit.csv')
-df = pd.read_csv('D:/Análises/Projeto Lotes/lotes_streamlit_compactados.csv.gz')
+df = pd.read_csv('lotes_streamlit_compactados.csv.gz')
 df.drop(columns={'Unnamed: 0'}, inplace=True)
 
 st.set_page_config(layout='wide')
@@ -926,4 +926,5 @@ with col2:
     st.markdown('Os resultatos apresentados reforçam a importância da análise como suporte à tomada de decisão. A manutenção de indicadores estruturados e acompanhamento periódico permitirá identificar variações relevantes, sustentar melhorias nos processos e acompanhar de perto mudanças que afetem não apenas o cenário farmacêutico, mas também de enfermagem e cuidados com o paciente.')
     st.markdown('Esse estudo permitiu compreender de forma objetiva o comportamento da demanda e da eficiência operacional ao longo do período analisado e abre portas para o entendimento de tendências e preocupações na farmácia.')
     st.markdown('Recomenda-se a continuidade do monitoramento dos indicadores apresentados, garantindo acompanhamento preventivo de possíveis riscos operacionais.')
+
     st.markdown('Análise elaborada por <br>**Vinícius Oliveira** <br>Auxiliar de Farmácia - UTI 8º <br>Fevereiro/2026', unsafe_allow_html=True)
