@@ -923,8 +923,9 @@ with col2:
     st.markdown('Além disso, trabalhar diariamente em um ritmo acelerado e intenso pode trazer certo desgaste físico e/ou emocional para os auxiliares de farmácia, abrindo margem para atestados e faltas, o que prejudica um plantão que já seria difícil.')
     
     st.header('Fechamento')
-    st.markdown('Os resultatos apresentados reforçam a importância da análise como suporte à tomada de decisão. A manutenção de indicadores estruturados e acompanhamento periódico permitirá identificar variações relevantes, sustentar melhorias nos processos e acompanhar de perto mudanças que afetem não apenas o cenário farmacêutico, mas também de enfermagem e cuidados com o paciente.')
+    st.markdown('Os resultados apresentados reforçam a importância da análise como suporte à tomada de decisão. A manutenção de indicadores estruturados e acompanhamento periódico permitirá identificar variações relevantes, sustentar melhorias nos processos e acompanhar de perto mudanças que afetem não apenas o cenário farmacêutico, mas também de enfermagem e cuidados com o paciente.')
     st.markdown('Esse estudo permitiu compreender de forma objetiva o comportamento da demanda e da eficiência operacional ao longo do período analisado e abre portas para o entendimento de tendências e preocupações na farmácia.')
     st.markdown('Recomenda-se a continuidade do monitoramento dos indicadores apresentados, garantindo acompanhamento preventivo de possíveis riscos operacionais.')
 
     st.markdown('Análise elaborada por <br>**Vinícius Oliveira** <br>Auxiliar de Farmácia - UTI 8º <br>Fevereiro/2026', unsafe_allow_html=True)
+
